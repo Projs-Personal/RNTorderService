@@ -47,6 +47,11 @@ dependencies {
 	testImplementation 'org.testcontainers:mysql'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-circuitbreaker-resilience4j', version: '3.1.1'
+
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-circuitbreaker-resilience4j', version: '3.1.1'
+
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-contract-stub-runner
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-contract-stub-runner', version: '4.2.0'
 

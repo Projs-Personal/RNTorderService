@@ -21,7 +21,7 @@ public class OrderService {
         if (isProductInStock) {
             //map ord req to ord obj :
             Order order = new Order();
-            order.setOrderNumber(String.valueOf(UUID.randomUUID()));
+            order.setOrderNumber(String.valueOf(UUID.randomUUID()));        //uniq o number
             order.setPrice(orderRequest.price());
             order.setSkuCode(orderRequest.skuCode());
             order.setQuantity(orderRequest.quantity());

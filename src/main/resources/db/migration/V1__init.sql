@@ -7,6 +7,4 @@ CREATE TABLE `t_orders`
     `quantity` int(11),
      PRIMARY KEY (`id`)
 );
-
-
---execute this scrript first time when run flyway
+--execute this script first time when run flyway
